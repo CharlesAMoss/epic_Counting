@@ -1,9 +1,9 @@
-describe('leapYear', function() {
-  it("is false for a year that is not divisible by 4", function() {
-    expect(leapYear(1999)).to.equal(false);
+describe('countBy', function() {
+  it("enters two numbers and returns an array", function() {
+    expect(countBy(50,10)).to.be.an('array');
   });
 
-  it("is true for most years divisible by 4", function() {
-    expect(leapYear(2012)).to.equal(true);
-  });
+  // it("is true for most years divisible by 4", function() {
+  //   expect(leapYear(2012)).to.equal(true);
+  // });
 });
