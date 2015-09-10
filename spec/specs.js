@@ -3,7 +3,7 @@ describe('countBy', function() {
     expect(countBy(50,10)).to.be.an('array');
   });
 
-  // it("is true for most years divisible by 4", function() {
-  //   expect(leapYear(2012)).to.equal(true);
-  // });
+  it("returns the output array of counts to first entered number", function() {
+    expect(countBy(30,10)).to.eql([10, 20, 30]);
+  });
 });
