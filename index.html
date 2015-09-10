@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
-        <title></title>
+        <title>Count It Out</title>
 
         <meta content="" name="description">
         <meta content="width=device-width" name="viewport">
@@ -18,7 +18,7 @@
 
             <header>
 
-                <h1 class="site__title">This is the H1</h1>
+                <h1 class="site__title">Count It Out</h1>
 
             </header>
 
@@ -30,17 +30,18 @@
 
                     <p></p>
 
-                    <form id="leap-year" class="main__form">
+                    <form id="countBy" class="main__form">
                         <div class="form__group">
-                            <label class="form__label" for="year">Enter a year and find out if it's a leap year:</label>
-                            <input class="form__input" id="year" type="text">
+                            <label class="form__label" for="year">Enter a <em>number</em> and an <em>increment</em> to count by:</label>
+                            <input class="form__input" id="end" type="text">
+                            <input class="form__input" id="step" type="text">
                         </div>
 
-                        <button class="form__btn" type="submit">Find out!</button>
+                        <button class="form__btn" type="submit">Count it out!</button>
                     </form>
 
-                    <div id="result">
-                        <p> <span class="year"></span> is <span class="not"></span> a leap year.</p>
+                    <div id="result" class="main__result">
+                        <p></p>
                     </div>
 
                 </article>

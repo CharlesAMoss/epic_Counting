@@ -94,9 +94,24 @@ header {
   	font-family: georgia, serif;
 }
 
+.main__result{
+	font-size: 1.5rem;
+	color: #bb0f00;
+
+}
+
+.main__result p:before {
+	content: ">> ";
+}
+
 /* content =================== */
 
 /* form ====================== */
+
+#result{
+	display:none;
+}
+
 
 .main__form {
 	padding: 40px;
